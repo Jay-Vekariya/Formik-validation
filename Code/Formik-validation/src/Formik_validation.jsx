@@ -59,7 +59,7 @@ const Formik_validation = () => {
 
   return (
     <>
-      <div className="bg-slate-800 text-white h-auto 2xl:h-screen xl:h-screen  flex flex-col gap-8 p-4">
+      <div className="bg-slate-800 text-white h-auto 2xl:h-auto xl:h-auto  flex flex-col gap-8 p-4">
         <div className="uppercase text-center text-[35px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[45px] 2xl:text-[40px]">
           Formik Validation
         </div>
