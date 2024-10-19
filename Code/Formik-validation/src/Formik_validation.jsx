@@ -59,11 +59,11 @@ const Formik_validation = () => {
 
   return (
     <>
-      <div className="bg-slate-800 text-white h-auto 2xl:h-auto xl:h-auto  flex flex-col gap-8 p-4">
-        <div className="uppercase text-center text-[35px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[45px] 2xl:text-[40px]">
+      <div className=" text-white h-auto 2xl:h-auto xl:h-auto  flex flex-col gap-8 p-4">
+        <div className="uppercase text-center text-black text-[35px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[45px] 2xl:text-[40px]">
           Formik Validation
         </div>
-        <div>
+        <div className="">
           <Formik
             initialValues={{
               name: "",
@@ -80,7 +80,7 @@ const Formik_validation = () => {
             }}
           >
             {({ getFieldProps, errors, touched }) => (
-              <Form className="max-w-md mx-auto p-6 bg-white text-black shadow-md rounded-lg">
+              <Form className="max-w-md mx-auto p-6 bg-white text-black shadow-md rounded-lg border-2 border-black">
                 <InputComponent
                   label="Name"
                   name="name"
